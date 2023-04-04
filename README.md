@@ -168,8 +168,65 @@ Other notes:
 
 ```
 
+# Github Resources - Git Resources
 
+Add gitignore:
 
+```
+Open Terminal.
 
+Navigate to the location of your Git repository.
+
+Create a .gitignore file for your repository.
+
+$ touch .gitignore
+If the command succeeds, there will be no output.
+```
+
+If you want to ignore a file that is already checked in, you must untrack the file before you add a rule to ignore it. From your terminal, untrack the file.
+```
+$ git rm --cached FILENAME
+```
+
+Potential additions to your .gitignore:
+```
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+```
 
 
