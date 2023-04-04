@@ -2,9 +2,9 @@
 
 Things that I commonly need for software development:
 
-## Ruby on Rails Resouces:
+# Ruby on Rails Resources:
 
-Create Ruby on Rails app locally:
+## Create Ruby on Rails app locally:
 ```
 $ rails new test123 --database=postgresql
 
