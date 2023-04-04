@@ -2,7 +2,7 @@
 
 Things that I commonly need for software development:
 
-<center><img src="https://github.com/jeremygradisher/resources/blob/main/assets/231webdev-logo.png" alt="231WebDev Logo" style="max-width: 80%;" /></center>
+<center><img src="https://github.com/jeremygradisher/resources/blob/main/assets/231webdev-logo.png" alt="231WebDev Logo" style="max-width: 500px;" /></center>
 
 # Ruby on Rails Resources:
 
@@ -228,5 +228,5 @@ Potential additions to your .gitignore:
 ehthumbs.db
 Thumbs.db
 ```
-
+https://github.com/github/gitignore - A collection of useful .gitignore templates
 
