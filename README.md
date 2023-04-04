@@ -2,6 +2,8 @@
 
 Things that I commonly need for software development:
 
+<center><img src="https://github.com/jeremygradisher/resources/blob/main/assets/231webdev-logo.png" alt="231WebDev Logo" style="max-width: 80%;" /></center>
+
 # Ruby on Rails Resources:
 
 ## Create Ruby on Rails app locally:
