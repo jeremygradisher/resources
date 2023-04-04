@@ -1,10 +1,10 @@
 # Resources
 
-## Things that I commonly need for software development:
+Things that I commonly need for software development:
 
-# Ruby on Rails Resouces:
----
+## Ruby on Rails Resouces:
 
+Create Ruby on Rails app locally:
 ```
 $ rails new test123 --database=postgresql
 
