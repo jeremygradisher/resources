@@ -135,24 +135,38 @@ $ bundler update --bundler
 
 ```
 
-## Check Ruby version with rbenv
+## rbenv versions
+Lists all Ruby versions known to rbenv, and shows an asterisk next to the currently active version.
 ```
-rbenv versions
+$ rbenv versions
+  1.8.7-p352
+  1.9.2-p290
+* 1.9.3-p327 (set by /Users/sam/.rbenv/version)
+  jruby-1.7.1
+  rbx-1.2.4
+  ree-1.8.7-2011.03
+```
+
+## rbenv version
+Displays the currently active Ruby version, along with information on how it was set.
+```
+$ rbenv version
+1.9.3-p327 (set by /Users/sam/.rbenv/version)
 ```
 
 ## Installing Ruby versions with rbenv
 ```
-rbenv install 2.6.3
-rbenv install 3.1.2
-rbenv install 3.1.3
+$ rbenv install 2.6.3
+$ rbenv install 3.1.2
+$ rbenv install 3.1.3
 ```
 
 ## Set Ruby version
 Select a Ruby version for your project using <strong>rbenv local 3.1.2</strong>, for example. Then, proceed to install gems as you normally would
 ```
-rbenv global 3.1.2   # set the default Ruby version for this machine
+$ rbenv global 3.1.2   # set the default Ruby version for this machine
 # or:
-rbenv local 3.1.2    # set the Ruby version for this directory
+$ rbenv local 3.1.2    # set the Ruby version for this directory
 ```
 
 ## info on build failures: https://github.com/rbenv/ruby-build/discussions/categories/build-failures
