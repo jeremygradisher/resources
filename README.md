@@ -134,6 +134,14 @@ $ bundler update --bundler
 
 
 ```
+# Ruby Versions:
+
+## Installing Ruby versions with rbenv
+```
+$ rbenv install 2.6.3
+$ rbenv install 3.1.2
+$ rbenv install 3.1.3
+```
 
 ## rbenv versions
 Lists all Ruby versions known to rbenv, and shows an asterisk next to the currently active version.
@@ -152,13 +160,6 @@ Displays the currently active Ruby version, along with information on how it was
 ```
 $ rbenv version
 1.9.3-p327 (set by /Users/sam/.rbenv/version)
-```
-
-## Installing Ruby versions with rbenv
-```
-$ rbenv install 2.6.3
-$ rbenv install 3.1.2
-$ rbenv install 3.1.3
 ```
 
 ## Set Ruby version
