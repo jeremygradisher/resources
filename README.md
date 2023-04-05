@@ -230,7 +230,8 @@ Thumbs.db
 ```
 https://github.com/github/gitignore - A collection of useful .gitignore templates
 
-Show . files on Mac / Show files that start with . on Mac OSX Ventura
+Show . files on Mac / Show files that start with . on Mac OSX Ventura<br>
+share hidden files on Mac
 ```
 command + shift + .
 ```
