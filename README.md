@@ -170,7 +170,13 @@ $ rbenv global 3.1.2   # set the default Ruby version for this machine
 $ rbenv local 3.1.2    # set the Ruby version for this directory
 ```
 
-## info on build failures: https://github.com/rbenv/ruby-build/discussions/categories/build-failures
+## info on build failures: 
+### https://github.com/rbenv/ruby-build/discussions/categories/build-failures
+
+## More on rbenv:
+### https://github.com/rbenv/rbenv
+
+---
 
 # React Resources:
 
