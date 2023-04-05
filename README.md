@@ -135,11 +135,16 @@ $ bundler update --bundler
 
 ```
 
+## Check Ruby version with rbenv
+```
+rbenv versions
+```
+
 ## Installing Ruby versions with rbenv
 ```
-$ rbenv install 2.6.3
-$ rbenv install 3.1.2
-$ rbenv install 3.1.3
+rbenv install 2.6.3
+rbenv install 3.1.2
+rbenv install 3.1.3
 ```
 
 
