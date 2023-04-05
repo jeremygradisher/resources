@@ -147,12 +147,15 @@ rbenv install 3.1.2
 rbenv install 3.1.3
 ```
 
-
+## Set Ruby version
+Select a Ruby version for your project using <strong>rbenv local 3.1.2</strong>, for example. Then, proceed to install gems as you normally would
 ```
 rbenv global 3.1.2   # set the default Ruby version for this machine
 # or:
 rbenv local 3.1.2    # set the Ruby version for this directory
 ```
+
+## info on build failures: https://github.com/rbenv/ruby-build/discussions/categories/build-failures
 
 # React Resources:
 
