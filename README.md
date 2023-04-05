@@ -135,6 +135,20 @@ $ bundler update --bundler
 
 ```
 
+## Installing Ruby versions with rbenv
+```
+$ rbenv install 2.6.3
+$ rbenv install 3.1.2
+$ rbenv install 3.1.3
+```
+
+
+```
+rbenv global 3.1.2   # set the default Ruby version for this machine
+# or:
+rbenv local 3.1.2    # set the Ruby version for this directory
+```
+
 # React Resources:
 
 ## Create React app
