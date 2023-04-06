@@ -162,7 +162,7 @@ $ rbenv version
 1.9.3-p327 (set by /Users/sam/.rbenv/version)
 ```
 
-## Set Ruby version
+## Set Ruby version rbenv
 Select a Ruby version for your project using <strong>rbenv local 3.1.2</strong>, for example. Then, proceed to install gems as you normally would
 ```
 $ rbenv global 3.1.2   # set the default Ruby version for this machine
@@ -175,6 +175,25 @@ $ rbenv local 3.1.2    # set the Ruby version for this directory
 
 ## More on rbenv:
 ### https://github.com/rbenv/rbenv
+
+## Set Ruby Version with RVM
+```
+See what Ruby versions are available:
+$ rvm list
+
+ubuntu - add the version you want:
+$ rvm install "ruby-3.1.2"
+$ rvm install "ruby-3.1.3"
+
+change ruby default (eventually)
+$ rvm --default use 3.1.2
+$ rvm --default use 3.1.3
+```
+*having problems? update RVM
+```
+$ rvm get stable
+```
+
 
 ---
 
