@@ -210,6 +210,7 @@ Other notes:
     and scripts into the app directory. If you do this, you can’t go back!
 
 ```
+---
 
 # Github Resources - Git Resources
 
@@ -270,6 +271,7 @@ Potential additions to your .gitignore:
 .Trashes
 ehthumbs.db
 Thumbs.db
+.env
 ```
 https://github.com/github/gitignore - A collection of useful .gitignore templates
 
@@ -279,3 +281,4 @@ share hidden files on Mac
 command + shift + .
 ```
 
+This is just a test.
