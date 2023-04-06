@@ -8,6 +8,10 @@ Things that I commonly need for software development...
 
 ## Create Ruby on Rails app locally:
 ```
+$ rbenv shell 3.1.4
+
+# ruby -v
+
 $ rails new test123 --database=postgresql
 
 $ rails s
