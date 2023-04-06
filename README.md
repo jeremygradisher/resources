@@ -136,6 +136,11 @@ $ bundler update --bundler
 ```
 # Ruby Versions:
 
+## check Ruby version:
+```
+ruby -v
+```
+
 ## Installing Ruby versions with rbenv
 ```
 $ rbenv install 2.6.3
@@ -169,6 +174,8 @@ $ rbenv global 3.1.2   # set the default Ruby version for this machine
 # or:
 $ rbenv local 3.1.2    # set the Ruby version for this directory
 ```
+
+
 
 ## info on build failures: 
 ### https://github.com/rbenv/ruby-build/discussions/categories/build-failures
