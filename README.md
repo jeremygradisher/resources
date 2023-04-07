@@ -77,6 +77,7 @@ $ rbenv shell 3.1.4
 ### https://github.com/rbenv/rbenv
 
 ## Set Ruby Version with RVM
+### Do not run both rbenv and RVM - You probably want just rbenv
 ```
 See what Ruby versions are available:
 $ rvm list
