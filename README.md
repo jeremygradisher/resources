@@ -8,14 +8,19 @@ Things that I commonly need for software development...
 
 ## Create Ruby on Rails app locally:
 ```
+Use rbenv to set Ruby version:
 $ rbenv shell 3.1.4
 
+Check ruby version:
 $ ruby -v
 
+Create new Rails app, name it and tell it to use postgresql
 $ rails new test123 --database=postgresql
 
+Start the development server:
 $ rails s
 
+Address where app is running:
 $ localhost:3000
 ```
 
