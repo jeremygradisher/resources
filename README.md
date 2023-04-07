@@ -28,7 +28,7 @@ $ localhost:3000
 
 ## check Ruby version:
 ```
-ruby -v
+$ ruby -v
 ```
 
 ## Installing Ruby versions with rbenv
@@ -63,6 +63,9 @@ Select a Ruby version for your project using <strong>rbenv local 3.1.2</strong>,
 $ rbenv global 3.1.2   # set the default Ruby version for this machine
 # or:
 $ rbenv local 3.1.2    # set the Ruby version for this directory
+
+Use rbenv to set Ruby version:
+$ rbenv shell 3.1.4
 ```
 
 
