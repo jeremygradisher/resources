@@ -21,7 +21,14 @@ Start the development server:
 $ rails s
 
 Address where app is running:
-$ localhost:3000
+http://localhost:3000
+
+Change the port on localhost:
+$ rails s -p 3003
+
+New localhost:
+http://localhost:3003
+
 ```
 
 # Ruby Versions:
@@ -323,4 +330,5 @@ share hidden files on Mac
 command + shift + .
 ```
 
-This is just a test.
+# Share the knowledge. Let's build!
+
