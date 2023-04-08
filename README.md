@@ -141,7 +141,7 @@ Other notes:
 
 # Github Resources - Git Resources
 
-Add gitignore:
+## Add gitignore:
 
 ```
 Open Terminal.
@@ -323,6 +323,16 @@ $ bundler update --bundler
 
 
 ```
+
+## Get Middleman to Run with AWS Cloud9:
+```
+middleman -p $PORT
+```
+live preview:
+https://xxxxxxxxxx7949b29393806a519c33a1.vfs.cloud9.us-east-1.amazonaws.com/
+
+---
+# Random code
 
 Show . files on Mac / Show files that start with . on Mac OSX Ventura<br>
 share hidden files on Mac
