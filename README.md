@@ -241,7 +241,14 @@ Ensure your latest changes are committed using git status, if not, make a commit
 Deploy your app to production:
 $ git push heroku master -a appname
 $ heroku run rake db:migrate -a appname
+
+Watch Heroku logs in real time:
+$ heroku logs --tail -a statusplan2
+
+Run rails console on Heroku:
+$ heroku run rails console -a status-plan
 ```
+
 
 ## Heroku database back-up stuff:
 ```
