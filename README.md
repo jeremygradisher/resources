@@ -242,6 +242,33 @@ Deploy your app to production:
 $ git push heroku master -a appname
 $ heroku run rake db:migrate -a appname
 ```
+
+## Heroku database back-up stuff:
+```
+Heroku backups stuff:
+
+https://devcenter.heroku.com/articles/heroku-postgres-backups
+
+
+Using Heroku CLI
+If you have Heroku CLI installed on your machine, then open your terminal/command prompt and run the following command. heroku config:get DATABASE_URL -a <your_heroku_app_name>
+When you run the above command, you will get your database URL in the following format.
+
+
+heroku config:get DATABASE_URL -a statusplan2
+
+*find databse color:
+$ heroku config -a statusplan2
+
+
+
+Scheduling backups
+In addition to manually triggered backups, you can schedule regular automatic backups. These will run daily against the specified database.
+
+heroku pg:backups:schedule DATABASE_URL --at '20:00 America/Detroit' --app statusplan2
+
+*gave me this message: Scheduling automatic daily backups of postgresql-lively-75872 at 20:00 America/Detroit... done
+```
 ---
 
 
