@@ -230,7 +230,7 @@ https://github.com/github/gitignore - A collection of useful .gitignore template
 ```
 Create a heroku app by using:
 $ npm install -g heroku
-$ heroku login
+$ heroku login -i
 $ heroku create
 
 Rename the app to something you like by using 
