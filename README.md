@@ -226,6 +226,25 @@ https://github.com/github/gitignore - A collection of useful .gitignore template
 
 ---
 
+# Heroku Information:
+```
+Create a heroku app by using:
+$ npm install -g heroku
+$ heroku login
+$ heroku create
+
+Rename the app to something you like by using 
+$ heroku rename nameofyourchoice
+
+Ensure your latest changes are committed using git status, if not, make a commit
+
+Deploy your app to production:
+$ git push heroku master -a appname
+$ heroku run rake db:migrate -a appname
+```
+---
+
+
 # AWS Cloud9 IDE for Ruby on Rails development
 
 ```
