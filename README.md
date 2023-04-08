@@ -141,6 +141,41 @@ Other notes:
 
 # Github Resources - Git Resources
 
+## Git resources:
+Set username and email for Github:
+```
+$ git config --global user.name jeremygradisher
+$ git config --global user.email jeremygradisher@gmail.com
+```
+
+Save Git credentials:
+```
+$ git config credential.helper store
+```
+
+create git repository for it
+
+Create a remote connection pointing back to a repository:
+```
+$ git remote add origin https://github.com/jeremygradisher/resources.git
+```
+
+Show the remote branch you are pushing and pulling from:
+```
+$ git remote -v
+```
+
+
+If you need to add a remote:
+```
+$ git remote add origin https://github.com/jeremygradisher/resources.git
+```
+
+If you need to remove a remote:
+```
+$ git remote set-url --delete origin https://github.com/jeremygradisher/resources.git
+```
+
 ## Add gitignore:
 
 ```
@@ -325,7 +360,7 @@ $ bundler update --bundler
 ```
 
 ## Get Middleman to Run with AWS Cloud9:
-This is what you need for your live preview:
+This is what you need in your run config for your live preview:
 ```
 middleman -p $PORT
 ```
@@ -339,6 +374,6 @@ share hidden files on Mac
 ```
 command + shift + .
 ```
-
+---
 # Share the knowledge. Let's build!
 
