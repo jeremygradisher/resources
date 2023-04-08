@@ -142,8 +142,8 @@ Other notes:
 # Github Resources - Git Resources
 
 ## Git resources:
-Set username and email for Github:
 ```
+Set username and email for Github:
 $ git config --global user.name jeremygradisher
 $ git config --global user.email jeremygradisher@gmail.com
 
