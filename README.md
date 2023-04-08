@@ -325,11 +325,11 @@ $ bundler update --bundler
 ```
 
 ## Get Middleman to Run with AWS Cloud9:
+This is what you need for your live preview:
 ```
 middleman -p $PORT
 ```
-live preview:
-https://xxxxxxxxxx7949b29393806a519c33a1.vfs.cloud9.us-east-1.amazonaws.com/
+Then Preview Running Application.
 
 ---
 # Random code
