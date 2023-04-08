@@ -247,6 +247,9 @@ $ heroku logs --tail -a statusplan2
 
 Run rails console on Heroku:
 $ heroku run rails console -a status-plan
+
+$ heroku config -a appname
+$ heroku restart appname
 ```
 
 
