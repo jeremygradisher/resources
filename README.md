@@ -137,6 +137,10 @@ Other notes:
     and scripts into the app directory. If you do this, you can’t go back!
 
 ```
+
+Set-up React Developer Tools Chrome extension:<br>
+https://youtu.be/fXRB6wgeKOo
+
 ---
 
 # Github Resources - Git Resources
