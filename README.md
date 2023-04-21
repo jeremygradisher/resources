@@ -104,7 +104,7 @@ $ rvm get stable
 Turbo Rails Tutorial
 Learn how to leverage the power of the [turbo-rails](https://github.com/hotwired/turbo-rails) library now included by default in Rails 7 to write reactive single-page applications without having to write a single line of custom JavaScript.
 
-[Quote Editor Tutorial](https://github.com/jeremygradisher/quote-editor)
+[Quote Editor Tutorial](https://github.com/jeremygradisher/quote-editor) - this has an extensive wiki with info: https://github.com/jeremygradisher/quote-editor/wiki
 
 ---
 
