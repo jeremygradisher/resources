@@ -160,6 +160,10 @@ Learn how to leverage the power of the [turbo-rails](https://github.com/hotwired
 
 [Quote Editor Tutorial](https://github.com/jeremygradisher/quote-editor) - this has an extensive wiki with info:[Quote Editor Wiki](https://github.com/jeremygradisher/quote-editor/wiki)
 
+Turbo Frames tutorial/example: https://github.com/jeremygradisher/quote-editor/wiki/Chapter-04<br>
+Above was the wiki, here is the tutorial: https://www.hotrails.dev/turbo-rails/turbo-frames-and-turbo-streams
+
+
 ---
 
 # React Resources:
