@@ -38,7 +38,6 @@ Rails 7 introduced a new way to deal with assets via import maps and they also i
 
 To get the new css/jss bundling configured with a new app you just need to specify what CSS framework you’d like to utilize if any, these options come from the cssbundling-rails gem.
 
-```
 1. Let's create our brand new Rails application. We will use Sass as a CSS pre-processor to create our design system, esbuild to bundle our single line of JavaScript, and a Postgresql database to be able to deploy our app on Heroku at the end of the tutorial.
 
 ```
@@ -69,7 +68,6 @@ $ bin/dev
 ```
 
 6. We can now go to http://localhost:3000, and we should see the Rails boot screen.
-```
 
 # Ruby Versions:
 
