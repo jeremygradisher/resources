@@ -31,6 +31,46 @@ http://localhost:3003
 
 ```
 
+## Rails 7 bin/dev wrapper to launch and manage the web server
+Explanation: https://www.nickhammond.com/learning-to-love-bin-slash-dev-in-rails-7/
+
+Rails 7 introduced a new way to deal with assets via import maps and they also introduced a new way to run your app locally, the new bin/dev file. It’s not installed by default(yet) unless you create a new app with the -css option or it’s installed later on when you run the css:install command.
+
+To get the new css/jss bundling configured with a new app you just need to specify what CSS framework you’d like to utilize if any, these options come from the cssbundling-rails gem.
+
+```
+1. Let's create our brand new Rails application. We will use Sass as a CSS pre-processor to create our design system, esbuild to bundle our single line of JavaScript, and a Postgresql database to be able to deploy our app on Heroku at the end of the tutorial.
+
+```
+$ rails new quote-editor --css=sass --javascript=esbuild --database=postgresql
+```
+
+2. As this tutorial was written at the time of Rails 7.0.0 let's make sure we use the version of turbo-rails that was used at the time to avoid unexpected issues. Let's update our Gemfile by locking the turbo-rails version:
+
+```
+# Gemfile
+gem "turbo-rails", "~> 1.0"
+```
+
+3. We can now run bundle install to install the correct version of the gem.
+```
+$ bundle install
+```
+
+4. Now that our application is ready, let's type the bin/setup command to install the dependencies 
+and create the database:
+```
+$ bin/setup
+```
+
+5. We can now run the rails server, and the scripts that precompile the CSS and the JavaScript code with the bin/dev command:
+```
+$ bin/dev
+```
+
+6. We can now go to http://localhost:3000, and we should see the Rails boot screen.
+```
+
 # Ruby Versions:
 
 ## check Ruby version:
@@ -100,11 +140,12 @@ $ rvm --default use 3.1.3
 $ rvm get stable
 ```
 
+
 ## Turbo Rails Stuff
 Turbo Rails Tutorial
 Learn how to leverage the power of the [turbo-rails](https://github.com/hotwired/turbo-rails) library now included by default in Rails 7 to write reactive single-page applications without having to write a single line of custom JavaScript.
 
-[Quote Editor Tutorial](https://github.com/jeremygradisher/quote-editor) - this has an extensive wiki with info: https://github.com/jeremygradisher/quote-editor/wiki
+[Quote Editor Tutorial](https://github.com/jeremygradisher/quote-editor) - this has an extensive wiki with info:[Quote Editor Wiki](https://github.com/jeremygradisher/quote-editor/wiki)
 
 ---
 
