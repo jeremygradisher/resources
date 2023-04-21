@@ -69,6 +69,21 @@ $ bin/dev
 
 6. We can now go to http://localhost:3000, and we should see the Rails boot screen.
 
+
+## Run Rails Tests
+```
+bin/rails test:system
+```
+
+## Seed the db from fixtures
+```
+bin/rails db:seed
+```
+
+
+
+
+
 # Ruby Versions:
 
 ## check Ruby version:
