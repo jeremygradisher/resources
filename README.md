@@ -178,7 +178,11 @@ gem "stimulus-rails"
 ```
 rails generate controller Contacts index
 ```
-2. Define the route: In the config/routes.rb file, add a route that maps the URL /contacts to the Contacts#index action. You can do this by adding the following line:
+
+2. Make sure the controller and the view both exist.
+
+
+3. Define the route: In the config/routes.rb file, add a route that maps the URL /contacts to the Contacts#index action. You can do this by adding the following line:
 ```
 get '/contacts', to: 'contacts#index'
 or
