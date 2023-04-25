@@ -173,6 +173,22 @@ gem "turbo-rails", "~> 1.0"
 gem "stimulus-rails"
 ```
 
+## Create a page in a ruby on rails app:
+1. Generate a controller: 
+```
+rails generate controller Contacts index
+```
+2. Define the route: In the config/routes.rb file, add a route that maps the URL /contacts to the Contacts#index action. You can do this by adding the following line:
+```
+get '/contacts', to: 'contacts#index'
+or
+resources :contacts, only: [:index]
+```
+This will create the route /contacts that maps to the Contacts#index action, and restrict it to only the index action.
+
+That's it! You should now be able to access your Contacts page by visiting the URL /contacts in your application.
+
+
 ---
 
 # React Resources:
