@@ -192,7 +192,6 @@ This will create the route /contacts that maps to the Contacts#index action, and
 
 That's it! You should now be able to access your Contacts page by visiting the URL /contacts in your application.
 
-
 ---
 
 # React Resources:
