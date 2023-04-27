@@ -185,6 +185,29 @@ This will create the route /contacts that maps to the Contacts#index action, and
 
 That's it! You should now be able to access your Contacts page by visiting the URL /contacts in your application.
 
+## Make a page your root route
+
+To use a Welcome page as the root route in a Ruby on Rails application, 
+you need to follow the steps below:
+
+1. Create a new controller named "welcome" by running the following command in your terminal:
+```rails generate controller Welcome index```
+This command will generate a new controller named "Welcome" and a view named "index". The view is located in the app/views/welcome directory.
+
+2. Open the config/routes.rb file and add the following line:
+
+```
+root 'welcome#index
+'```
+
+
+3. In the app/views/welcome/index.html.erb file, you can add your Welcome page content.
+
+4. Start your Rails server and navigate to http://localhost:3000/ in your browser. You should see your Welcome page as the root route of your application.
+
+That's it! You have successfully set up your Welcome page as the root route in your Ruby on Rails application.
+
+
 ---
 
 # React Resources:
