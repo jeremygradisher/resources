@@ -41,33 +41,26 @@ To get the new css/jss bundling configured with a new app you just need to speci
 1. Let's create our brand new Rails application. We will use Sass as a CSS pre-processor to create our design system, esbuild to bundle our single line of JavaScript, and a Postgresql database to be able to deploy our app on Heroku at the end of the tutorial.
 
 ```
-$ rails new quote-editor --css=sass --javascript=esbuild --database=postgresql
+$ rails new app-name --css=sass --javascript=esbuild --database=postgresql
 ```
 
-2. As this tutorial was written at the time of Rails 7.0.0 let's make sure we use the version of turbo-rails that was used at the time to avoid unexpected issues. Let's update our Gemfile by locking the turbo-rails version:
-
-```
-# Gemfile
-gem "turbo-rails", "~> 1.0"
-```
-
-3. We can now run bundle install to install the correct version of the gem.
+2. We can now run bundle install to install the correct version of the gem.
 ```
 $ bundle install
 ```
 
-4. Now that our application is ready, let's type the bin/setup command to install the dependencies 
+3. Now that our application is ready, let's type the bin/setup command to install the dependencies 
 and create the database:
 ```
 $ bin/setup
 ```
 
-5. We can now run the rails server, and the scripts that precompile the CSS and the JavaScript code with the bin/dev command:
+4. We can now run the rails server, and the scripts that precompile the CSS and the JavaScript code with the bin/dev command:
 ```
 $ bin/dev
 ```
 
-6. We can now go to http://localhost:3000, and we should see the Rails boot screen.
+5. We can now go to http://localhost:3000, and we should see the Rails boot screen.
 
 
 ## Run Rails Tests
