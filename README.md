@@ -196,9 +196,7 @@ This command will generate a new controller named "Welcome" and a view named "in
 
 2. Open the config/routes.rb file and add the following line:
 
-```
-root 'welcome#index
-'```
+```root 'welcome#index'```
 
 
 3. In the app/views/welcome/index.html.erb file, you can add your Welcome page content.
