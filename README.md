@@ -191,12 +191,17 @@ To use a Welcome page as the root route in a Ruby on Rails application,
 you need to follow the steps below:
 
 1. Create a new controller named "welcome" by running the following command in your terminal:
-```rails generate controller Welcome index```
+```
+rails generate controller Welcome index
+```
+
 This command will generate a new controller named "Welcome" and a view named "index". The view is located in the app/views/welcome directory.
 
 2. Open the config/routes.rb file and add the following line:
 
-```root 'welcome#index'```
+```
+root 'welcome#index'
+```
 
 
 3. In the app/views/welcome/index.html.erb file, you can add your Welcome page content.
