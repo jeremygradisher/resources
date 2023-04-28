@@ -522,12 +522,12 @@ Then Preview Running Application.
 
 ---
 # Comman line stuff:
-### Find out what is running on a particular port on macOS ```sudo lsof -i :<PortNumber>```
+### Find out what is running on a particular port on macOS
 ```
 sudo lsof -i :3000
 ```
 
-### Kill the process running on a specific port on macOS ```kill -9 <PID>```
+### Kill the process running on a specific port on macOS
 ```
 kill -9 <PID>
 ```
