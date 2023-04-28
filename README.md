@@ -203,7 +203,6 @@ This command will generate a new controller named "Welcome" and a view named "in
 root 'welcome#index'
 ```
 
-
 3. In the app/views/welcome/index.html.erb file, you can add your Welcome page content.
 
 4. Start your Rails server and navigate to http://localhost:3000/ in your browser. You should see your Welcome page as the root route of your application.
