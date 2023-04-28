@@ -521,6 +521,18 @@ middleman -p $PORT
 Then Preview Running Application.
 
 ---
+# Comman line stuff:
+### Find out what is running on a particular port on macOS ```sudo lsof -i :<PortNumber>```
+```
+sudo lsof -i :3000
+```
+
+### Kill the process running on a specific port on macOS ```kill -9 <PID>```
+```
+kill -9 <PID>
+```
+
+---
 # Random code
 
 Show . files on Mac / Show files that start with . on Mac OSX Ventura<br>
