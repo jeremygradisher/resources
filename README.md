@@ -41,23 +41,23 @@ To get the new css/jss bundling configured with a new app you just need to speci
 1. Let's create our brand new Rails application. We will use Sass as a CSS pre-processor to create our design system, esbuild to bundle our single line of JavaScript, and a Postgresql database to be able to deploy our app on Heroku at the end of the tutorial.
 
 ```
-$ rails new app-name --css=sass --javascript=esbuild --database=postgresql
+rails new app-name --css=sass --javascript=esbuild --database=postgresql
 ```
 
 2. We can now run bundle install to install the correct version of the gem.
 ```
-$ bundle install
+bundle install
 ```
 
 3. Now that our application is ready, let's type the bin/setup command to install the dependencies 
 and create the database:
 ```
-$ bin/setup
+bin/setup
 ```
 
 4. We can now run the rails server, and the scripts that precompile the CSS and the JavaScript code with the bin/dev command:
 ```
-$ bin/dev
+bin/dev
 ```
 
 5. We can now go to http://localhost:3000, and we should see the Rails boot screen.
@@ -77,7 +77,7 @@ bin/rails test:system
 bin/rails db:seed
 ```
 
-
+---
 
 
 
@@ -212,45 +212,6 @@ root 'welcome#index'
 4. Start your Rails server and navigate to http://localhost:3000/ in your browser. You should see your Welcome page as the root route of your application.
 
 That's it! You have successfully set up your Welcome page as the root route in your Ruby on Rails application.
-
-
----
-
-# React Resources:
-
-## Create React app
-
-```
-$ npx create-react-app new-app
-
-$ cd new-app
-
-$ npm start
-
-Start should have bumped you here:
-http://localhost:3000/
-
-Stop the app:
-  ctrl c
-
-Other notes:
-  npm start
-    Starts the development server.
-
-  npm run build
-    Bundles the app into static files for production.
-
-  npm test
-    Starts the test runner.
-
-  npm run eject
-    Removes this tool and copies build dependencies, configuration files
-    and scripts into the app directory. If you do this, you can’t go back!
-
-```
-
-Set-up React Developer Tools Chrome extension:<br>
-https://youtu.be/fXRB6wgeKOo
 
 ---
 
