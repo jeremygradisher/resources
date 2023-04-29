@@ -62,7 +62,7 @@ $ bin/dev
 
 5. We can now go to http://localhost:3000, and we should see the Rails boot screen.
 
-### if you cloned this, Precompile javascript/css:
+### If you cloned this, Precompile javascript/css:
 ```
 rails assets:precompile
 ```
@@ -525,7 +525,7 @@ middleman -p $PORT
 Then Preview Running Application.
 
 ---
-# Comman line stuff:
+# Command line stuff:
 ### Find out what is running on a particular port on macOS
 ```
 sudo lsof -i :3000
