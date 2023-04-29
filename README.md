@@ -62,7 +62,7 @@ $ bin/dev
 
 5. We can now go to http://localhost:3000, and we should see the Rails boot screen.
 
-* if you cloned this, Precompile javascript/css:
+### if you cloned this, Precompile javascript/css:
 ```
 rails assets:precompile
 ```
