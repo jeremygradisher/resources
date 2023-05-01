@@ -42,6 +42,7 @@ To get the new css/jss bundling configured with a new app you just need to speci
 
 ```
 rails new app-name --css=sass --javascript=esbuild --database=postgresql
+
 or with bootstrap:
 rails new app-name --css=bootstrap --javascript=esbuild --database=postgresql
 ```
