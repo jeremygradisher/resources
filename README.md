@@ -337,8 +337,6 @@ heroku pg:backups:schedule DATABASE_URL --at '20:00 America/Detroit' --app statu
 
 *gave me this message: Scheduling automatic daily backups of postgresql-lively-75872 at 20:00 America/Detroit... done
 ```
----
-
 
 ---
 # Command line stuff:
