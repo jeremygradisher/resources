@@ -95,7 +95,7 @@ bin/rails javascript:install:esbuild
 ```
 rails assets:precompile
 ```
-### To add from scratch use --css=bootstrap
+### To add Bootstrap from scratch use --css=bootstrap
 ```
 rails new app-name --css=bootstrap --javascript=esbuild --database=postgresql
 ```
