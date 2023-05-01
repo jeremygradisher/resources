@@ -41,7 +41,7 @@ To get the new css/jss bundling configured with a new app you just need to speci
 1. Let's create our brand new Rails application. We will use Sass as a CSS pre-processor to create our design system, esbuild to bundle our single line of JavaScript, and a Postgresql database to be able to deploy our app on Heroku at the end of the tutorial.
 
 ```
-rails new app-name --css=sass --javascript=esbuild --database=postgresql
+rails new app-name --css=bootstrap --javascript=esbuild --database=postgresql
 ```
 
 2. We can now run bundle install to install the correct version of the gem.
