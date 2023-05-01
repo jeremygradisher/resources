@@ -80,6 +80,28 @@ bin/rails test:system
 bin/rails db:seed
 ```
 
+## Add Bootstrap to existing Rails 7 application:
+1. bundle add cssbundling-rails
+```
+bin/rails css:install:bootstrap
+```
+
+2. bundle add jsbundling-rails
+```
+bin/rails javascript:install:esbuild
+```
+
+3. Precompile your build assets:
+```
+rails assets:precompile
+```
+### To add from scratch use --css=bootstrap
+```
+rails new app-name --css=bootstrap --javascript=esbuild --database=postgresql
+```
+-c, [--css=CSS] # Choose CSS processor [options: tailwind, bootstrap, bulma, postcss, sass... check https://github.com/rails/cssbundling-rails]
+
+
 ---
 
 
