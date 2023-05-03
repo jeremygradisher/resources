@@ -220,6 +220,9 @@ root 'welcome#index'
 
 That's it! You have successfully set up your Welcome page as the root route in your Ruby on Rails application.
 
+### Devise - functional basic user auth:
+https://github.com/jeremygradisher/test-devise-basic
+
 ---
 
 # Github Resources - Git Resources
