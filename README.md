@@ -386,6 +386,10 @@ share hidden files on Mac
 ```
 command + shift + .
 ```
+Press Cmd + Shift + G to bring up the Go to Folder box and enter /private/var/folders.
+```
+Cmd + Shift + G
+```
 ---
 # Share the knowledge. Let's build!!!
 
