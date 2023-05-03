@@ -210,7 +210,7 @@ This command will generate a new controller named "Welcome" and a view named "in
 
 2. Open the config/routes.rb file and add the following line:
 
-```
+```ruby
 root 'welcome#index'
 ```
 
