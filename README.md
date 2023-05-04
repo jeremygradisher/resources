@@ -339,6 +339,10 @@ You can get it to write code by creating a comment with an objective:
 ```
 * Create the comment with the objective, then hit enter. It will write the code for you.
 
+You can hover over the grayed out code to select from multiple options:
+https://youtu.be/Fi3AJZZregI?t=609
+
+
 
 ---
 
