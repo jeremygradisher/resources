@@ -312,7 +312,7 @@ https://github.com/github/gitignore - A collection of useful .gitignore template
 
 ## Github Copilot
 
-You can ask it questions in the comments, and it will try to answer them. For example:
+### You can ask it questions in the comments, and it will try to answer them. For example:
 ```
 // q: What does SOLID stand for?
 ```
@@ -321,7 +321,7 @@ It will start to autocomplete the answer for you:
 // a: Single responsibility, Open-closed, Liskov substitution, Interface segregation, Dependency inversion
 ```
 
-Use Tab to accept the suggestion. You can also ask it to explain the answer. 
+### Use Tab to accept the suggestion. You can also ask it to explain the answer. 
 
 You can get it to write code by creating a comment with an objective:
 ```html
