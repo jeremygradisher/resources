@@ -327,6 +327,13 @@ You can get it to write code by creating a comment with an objective:
 ```html
 <!-- a h2 with inline style making the heading blue -->
         <h2 style="color: blue;">Example</h2>
+
+<!-- create a bulleted list-->
+        <ul>
+            <li>Example</li>
+            <li>Example</li>
+            <li>Example</li>
+        </ul>
 ```
 * Create the comment with the objective, then hit enter. It will write the code for you.
 
