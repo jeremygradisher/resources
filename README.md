@@ -312,6 +312,8 @@ https://github.com/github/gitignore - A collection of useful .gitignore template
 
 ## Github Copilot
 
+Intro video for Copilot: https://www.youtube.com/watch?v=Fi3AJZZregI
+
 ### You can ask it questions in the comments, and it will try to answer them. For example:
 ```
 // q: What does SOLID stand for?
