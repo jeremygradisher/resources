@@ -310,6 +310,19 @@ Thumbs.db
 ```
 https://github.com/github/gitignore - A collection of useful .gitignore templates
 
+## Github Copilot
+
+You can ask it questions in the comments, and it will try to answer them. For example:
+```
+// q: What does SOLID stand for?
+```
+It will start to autocomplete the answer for you:
+```
+// a: Single responsibility, Open-closed, Liskov substitution, Interface segregation, Dependency inversion
+```
+
+Use Tab to accept the suggestion. You can also ask it to explain the answer. 
+
 ---
 
 # Heroku Information:
