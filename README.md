@@ -371,6 +371,12 @@ $ heroku run rails console -a status-plan
 
 $ heroku config -a appname
 $ heroku restart appname
+
+Check the status of your app:
+$ heroku info
+
+Add a remote to an existing app:
+$ heroku git:remote -a appname
 ```
 
 ## Heroku database back-up stuff:
