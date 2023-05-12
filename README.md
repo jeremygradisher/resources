@@ -95,6 +95,7 @@ bin/rails javascript:install:esbuild
 ```
 rails assets:precompile
 ```
+
 ### To add Bootstrap from scratch use --css=bootstrap
 ```
 rails new app-name --css=bootstrap --javascript=esbuild --database=postgresql
@@ -103,8 +104,6 @@ rails new app-name --css=bootstrap --javascript=esbuild --database=postgresql
 
 
 ---
-
-
 
 # Ruby Versions:
 
@@ -174,8 +173,6 @@ $ rvm --default use 3.1.3
 ```
 $ rvm get stable
 ```
-
-
 
 ## Create a page in a ruby on rails app:
 1. Generate a controller: 
@@ -343,8 +340,6 @@ You can hover over the grayed out code to select from multiple options:
 https://youtu.be/Fi3AJZZregI?t=609<br>
 By hovering over the grayed out code, you can push ctrl+enter to open a copilot menu with multiple options for the code.
 
-
-
 ---
 
 # Heroku Information:
@@ -385,11 +380,9 @@ Heroku backups stuff:
 
 https://devcenter.heroku.com/articles/heroku-postgres-backups
 
-
 Using Heroku CLI
 If you have Heroku CLI installed on your machine, then open your terminal/command prompt and run the following command. heroku config:get DATABASE_URL -a <your_heroku_app_name>
 When you run the above command, you will get your database URL in the following format.
-
 
 heroku config:get DATABASE_URL -a statusplan2
 
@@ -430,6 +423,7 @@ Press Cmd + Shift + G to bring up the Go to Folder box and enter /private/var/fo
 ```
 Cmd + Shift + G
 ```
+
 ---
 # Share the knowledge. Let's build!!!
 
