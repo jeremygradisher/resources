@@ -75,6 +75,8 @@ rails assets:precompile
 bin/rails test:system
 ```
 
+More on testing here: https://github.com/jeremygradisher/testing-playground
+
 ## Seed the db from fixtures
 ```
 bin/rails db:seed
