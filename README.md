@@ -376,6 +376,57 @@ Add a remote to an existing app:
 $ heroku git:remote -a appname
 ```
 
+## Setup application on Heroku
+
+1. Create new app through Heroku dashboard
+
+2. Connect it to the git then manually deploy branch from the dashboard
+
+3. This threw an error:
+"Your bundle only supports platforms ["arm64-darwin-22"] but your local platform is x86_64-linux. Add the current platform to the lockfile with bundle lock --add-platform x86_64-linux and try again."
+
+To resolve this issue, you can follow the instructions provided in the error message. Run the following command in your Rails application's directory on your local machine:
+```
+bundle lock --add-platform x86_64-linux
+```
+
+4. Ran that through the cli, and then pushed to github, then pushed to Heroku
+
+* at this point launched app by pushing "Open app" button in upper right corner of heroku dashboard. App is running but fails if I try and push links.
+
+5. Jump into the Heroku logs for clues:
+```
+heroku logs --tail -a affyex-devise-users
+```
+
+* I feel like the logs do not tell me much. I see something about Turbo streams. Pretty sure this is because there is no redis server currently setup in the Heroku dash. We also need to setup dynos.
+
+6. Run migrations:
+```
+heroku run rake db:migrate -a affyex-devise-users
+```
+
+7. Getting Redis to work:
+```
+heroku addons:create heroku-redis:mini -a affyex-devise-users
+```
+
+8. Check that you have 2 Installed add-ons: Heroku-Postgres and Heroku Data for Redis
+
+9. Restart the dynos and chack that all is working. Create a User.
+
+10. Use Heroku Rails console to make your user an admin:
+
+Open Heroku Rails console:
+```
+heroku run rails console -a affyex-devise-users  
+```
+* then within the console:
+```
+user = User.last
+user.update(is_admin: !user.is_admin)
+```
+
 ## Heroku database back-up stuff:
 ```
 Heroku backups stuff:
