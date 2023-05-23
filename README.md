@@ -376,7 +376,7 @@ Add a remote to an existing app:
 $ heroku git:remote -a appname
 ```
 
-## Setup application on Heroku
+## Setup application on Heroku - Heroku app setup
 
 1. Create new app through Heroku dashboard
 
