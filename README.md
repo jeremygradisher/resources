@@ -466,9 +466,6 @@ Click Users in the left hand navigation
 
 4. Create the S3 bucket - Click create bucket. Name it. AWS Region matters - Currently deselecting the Block all public access setting.
 
-bucket:
-
-Create and Connect policy to the User!:
 5. Go back to services and click IAM hit users in the left nav and click into the user
 
 6. hit policies in the left click get started (if necessary) 
