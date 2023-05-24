@@ -458,7 +458,7 @@ heroku pg:backups:schedule DATABASE_URL --at '20:00 America/Detroit' --app statu
 
 1. Create IAM user and grab the keys. Click Users in the left hand navigation. Add Users button in upper right hand corner.
 
-2. Within User details, create a User name and select Provide user access to the AWS Management Console - which will give us an access point to make changes or address issues. In this instance I selected "I want to create and IAM user"
+2. Within User details, create a User name and select Provide user access to the AWS Management Console - which will give us an access point to make changes or address issues. In this instance I selected "I want to create an IAM user"
 
 3. Go ahead and create without attaching a policy. We will come back to that.
 
