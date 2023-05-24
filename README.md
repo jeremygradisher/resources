@@ -454,7 +454,7 @@ heroku pg:backups:schedule DATABASE_URL --at '20:00 America/Detroit' --app statu
 
 ---
 
-# AWS IAM User and S3 Bucket Setup
+## AWS IAM User and S3 Bucket Setup
 
 1. Create IAM user and grab the keys:
 Click Users in the left hand navigation
