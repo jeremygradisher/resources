@@ -499,17 +499,17 @@ Policy name: test
 
 10. go to users and attach the policy under permissions attach policy
 
-11. Click back into the user and create the access keys that you need - choose just the cli:
+11. Click back into the user and create the access keys that you need - choose just the cli:<br>
 Now we have what we need:
 
-user:
-Access Key ID:
-Secret Access Key:
+user:<br>
+Access Key ID:<br>
+Secret Access Key:<br>
 bucket:
 
-Remember that I have these for access as well:
-Console sign-in URL:
-User name:
+Remember that I have these for access as well:<br>
+Console sign-in URL:<br>
+User name:<br>
 Console password:
 
 
