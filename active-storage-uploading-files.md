@@ -16,23 +16,13 @@ gem "image_processing", "~> 1.2"
 
 
 
-3. Declare Active Storage services in config/storage.yml. For each service your application uses, provide a name and the requisite configuration. The example below declares three services named local, test, and amazon - you can just uncomment it:
-```
-local:
-  service: Disk
-  root: <%= Rails.root.join("storage") %>
+3. I did end up needing to add these manually:
+Set the following key-value pairs (replace XXX with your actual credentials):
 
-test:
-  service: Disk
-  root: <%= Rails.root.join("tmp/storage") %>
-
-amazon:
-  service: S3
-  access_key_id: ""
-  secret_access_key: ""
-  bucket: ""
-  region: "" # e.g. 'us-east-1'
-```
+AWS_ACCESS_KEY_ID: XXX
+AWS_SECRET_ACCESS_KEY: XXX
+AWS_REGION: XXX
+AWS_BUCKET: XXX
 
 4. Tell Active Storage which service to use by setting Rails.application.config.active_storage.service. Because each environment will likely use a different service, it is recommended to do this on a per-environment basis. To use the disk service from the previous example in the development environment, you would add the following to config/environments/development.rb:
 ```
@@ -132,13 +122,7 @@ end
 ```
 
 
-13. I did end up needing to add these manually:
-Set the following key-value pairs (replace XXX with your actual credentials):
-
-AWS_ACCESS_KEY_ID: XXX
-AWS_SECRET_ACCESS_KEY: XXX
-AWS_REGION: XXX
-AWS_BUCKET: XXX
+13. 
 
 
 
