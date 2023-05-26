@@ -47,3 +47,23 @@ https://theresanaiforthat.com/ai/dragan - The tool allows users to synthesize vi
 https://donotpay.com/ - DoNotPay is the world's first robot lawyer. Fight corporations, beat bureaucracy and sue anyone at the press of a button.
 
 https://chat.openai.com/ - OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.
+
+https://www.opus.pro/ - Opus Clip is a generative AI video tool that repurposes long videos into shorts in one click. Powered by OpenAI
+
+https://www.spydialer.com/ - Spy Dialer is the totally 100% seriously free reverse phone lookup used by millions of people. NO membership required! Have a missed call? Need to know whose number is it? Search now by phone number, name or address. Works with any phone number type -- cell phone, VOIP or landline!
+
+https://vidyo.ai/ - Vidyo.ai is a video editing tool that uses AI to automatically edit your videos. It's free and easy to use. Make short videos from long ones instantly. Create social ready short clips from your long videos with AI ✨ Save 90% time and effort
+
+https://alsoasked.com/ - AlsoAsked.com is a free visualisation tool that shows you what questions people also ask for any search term or phrase. It's a great way to find out what people are asking about your topic, and to find new content ideas.
+
+https://phonevalidator.com/ - Phone Validator is a free tool that helps you validate phone numbers. It's a Chrome extension that uses AI to validate phone numbers. It's free and easy to use.
+
+https://krisp.ai/ - Krisp is a free tool that helps you mute background noise during calls. It's a Chrome extension that uses AI to mute background noise during calls. It's free and easy to use.
+
+https://www.blackmagicdesign.com/products/davinciresolve - DaVinci Resolve 18 is the world’s only solution that combines professional 8K editing, color correction, visual effects and audio post production all in one software tool! You can instantly move between editing, color, effects, and audio with a single click. DaVinci Resolve Studio is also the only solution designed for multi user collaboration so editors, assistants, colorists, VFX artists and sound designers can all work live on the same project at the same time! Whether you’re an individual artist, or part of a large collaborative team, it’s easy to see why DaVinci Resolve is the standard for high end post production and finishing on more Hollywood feature films, television shows and commercials than any other software.
+
+https://studio.polotno.com/ - Polotno Studio is a free tool that helps you create graphics. It's a Chrome extension that uses AI to create graphics. It's free and easy to use. - alternative to https://www.canva.com/
+
+https://www.chefgpt.xyz/ - ChefGPT is a free tool that helps you generate recipes. It's a Chrome extension that uses AI to generate recipes. It's free and easy to use.
+
+
