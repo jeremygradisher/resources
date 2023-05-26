@@ -1,10 +1,14 @@
+https://www.photopea.com - Online image editor. Free. Just like Adobe Photoshop.
+
+https://sketch.metademolab.com/ - Bring Children's drawings to life with AI.
+
+https://chat.openai.com/ - OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.
+
 https://pictory.ai/ - Automatically create short, highly-sharable branded videos from your long form content.
 
 https://www.capitoltrades.com/ - shows what the politicians are investing in.
 
 https://www.synthesia.io/ - AI video generation platform - create an AI version of yourself to read out your blog posts. $30 per month. Pretty pricey.
-
-https://www.photopea.com - Online image editor. Free. Just like Adobe Photoshop.
 
 https://www.stan.store/ - Turn your followers into paying customers by selling digital products and services you know your audience will love. Join the #StanFam to grow your Creator Business today!
 
@@ -27,7 +31,7 @@ https://www.importyeti.com/ - ImportYeti helps you find the right supplier 5x ti
 
 https://tinywow.com/ - We offer PDF, video, image and other online tools to make your life easier. TinyWow is 100% free to use (even OCR), with no pesky registration required. For our most loyal supporters, a $5.99/month plan unlocks an ad and captcha free ...
 
-https://sketch.metademolab.com/ - Bring Children's drawings to life with AI.
+
 
 
 https://fastreply.io/ - FastReply is a free tool that helps you create a reply to your emails in seconds. It's a Chrome extension that uses AI to generate a reply to your emails. It's free and easy to use.
