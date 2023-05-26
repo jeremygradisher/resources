@@ -52,12 +52,22 @@ AWS_SECRET_ACCESS_KEY: XXX<br>
 AWS_REGION: XXX<br>
 AWS_BUCKET: XXX<br>
 
-7. To use the S3 service in production, you add the following to config/environments/production.rb:
+7. config/storage.yml - exact spacing. no tabs. 2 spaces.
+```
+amazon:
+  service: S3
+  access_key_id: <%= ENV['AWS_ACCESS_KEY_ID'] %>
+  secret_access_key: <%= ENV['AWS_SECRET_ACCESS_KEY'] %>
+  region: <%= ENV['AWS_REGION'] %>
+  bucket: <%= ENV['AWS_BUCKET'] %>
+```
+
+8. To use the S3 service in production, you add the following to config/environments/production.rb:
 ```
 # Store files on Amazon S3.
 config.active_storage.service = :amazon
 ```
-8. Add the aws-sdk-s3 gem to your Gemfile:
+9. Add the aws-sdk-s3 gem to your Gemfile:
 ```
 gem "aws-sdk-s3", require: false
 ```
