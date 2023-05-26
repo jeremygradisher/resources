@@ -31,9 +31,6 @@ https://www.importyeti.com/ - ImportYeti helps you find the right supplier 5x ti
 
 https://tinywow.com/ - We offer PDF, video, image and other online tools to make your life easier. TinyWow is 100% free to use (even OCR), with no pesky registration required. For our most loyal supporters, a $5.99/month plan unlocks an ad and captcha free ...
 
-
-
-
 https://fastreply.io/ - FastReply is a free tool that helps you create a reply to your emails in seconds. It's a Chrome extension that uses AI to generate a reply to your emails. It's free and easy to use.
 
 https://looka.com/ - Looka is the highest rated online logo maker that's 100% free to try. Use Looka's AI-powered platform to design a logo and build a brand you love.
@@ -67,5 +64,38 @@ https://studio.polotno.com/ - Polotno Studio is a free tool that helps you creat
 https://www.chefgpt.xyz/ - ChefGPT is a free tool that helps you generate recipes. It's a Chrome extension that uses AI to generate recipes. It's free and easy to use.
 
 https://vocalremover.org/ - Vocal Remover is a free tool that helps you remove vocals from songs. It's a Chrome extension that uses AI to remove vocals from songs. It's free and easy to use.
+
+https://www.edx.org/ - Access 2000 free online courses from 140 leading institutions worldwide. Gain new skills and earn a certificate of completion. Join today.
+
+https://www.coursera.org/ - Choose from hundreds of free courses or pay to earn a Course or Specialization Certificate. Explore our catalog of online degrees, certificates, Specializations, & MOOCs in data science, computer science, business, health, and dozens of other topics.
+
+https://www.udemy.com/ - Udemy is an online learning and teaching marketplace with over 155,000 courses and 40 million students. Learn programming, marketing, data science and more.
+
+https://www.skillshare.com/ - Skillshare is a learning platform with online classes taught by the world's best practitioners. Personalized, on-demand learning in design, photography, and more.
+
+https://www.remove.bg/ - Remove Image Background: 100% automatically – in 5 seconds – without a single click – for free.
+
+https://www.supermeme.ai/ - Supermeme is a free tool that helps you create memes. It's a Chrome extension that uses AI to create memes. It's free and easy to use.
+
+https://jrake.com/ - this site will create a picture from your text
+
+https://www.deadmansswitch.net/ - send emails to your loved ones after you die.
+
+https://alfred.camera/ - Alfred Camera is a free tool that helps you turn your phone into a security camera. It's a Chrome extension that uses AI to turn your phone into a security camera. It's free and easy to use.
+
+https://www.ifixit.com/ - iFixit is a global community of people helping each other repair things. Let's fix the world, one device at a time. Troubleshoot with experts in the Answers forum—and build your own how-to guides to share with the world. Fix your Apple and Android devices—and buy all the parts and tools needed for your DIY repair projects.
+
+https://www.blinkist.com/ - Blinkist lets you read the key lessons from 4000+ nonfiction books in 15 min or fewer. Start your free trial today and find out how.
+
+https://www.chatfast.io/ - Upload files, provide website url, a GPT Chatbot will be built for you that can answer any questions about your content in real-time. 
+
+https://www.copy.ai/ - free tier 2,000 words per month. 
+
+https://otter.ai/ - Get an AI meeting assistant that records audio, writes notes, automatically captures slides, and generates summaries.
+
+https://axiom.ai/ - Browser Automation. Quickly, without code
+Save time - use browser bots to automate website actions and repetitive tasks on any website or web app. Get 2 hours of bot run time for free, sign up to one of our packages for more!
+Run time is counted from when your bot starts running to when it finishes - you can spend as long building as you like. Stopped runs or errors don't count, either! The maximum duration of a single run during the free trial is 30 mins. $15 gets you 5 hours. $50 gets you 30 hours.
+
 
 
