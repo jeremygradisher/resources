@@ -497,7 +497,7 @@ Policy name: test
 
 10. go to users and attach the policy under permissions attach policy
 
-11. Click back into the user and create the access keys that you need - choose just the cli:<br>
+11. Click back into the user and create the access keys that you need - choose just the cli - it's under Security Credentials - Access keys - Create Access key:<br>
 Now we have what we need:
 
 user:<br>
