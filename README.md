@@ -403,7 +403,7 @@ heroku logs --tail -a affyex-devise-users
 
 6. Run migrations:
 ```
-heroku run rake db:migrate -a affyex-devise-users
+heroku run bin/rails db:migrate -a affyex-devise-users
 ```
 
 7. Getting Redis to work:
@@ -419,7 +419,7 @@ heroku addons:create heroku-redis:mini -a affyex-devise-users
 
 Open Heroku Rails console:
 ```
-heroku run rails console -a affyex-devise-users  
+heroku run bin/rails console -a affyex-devise-users  
 ```
 * then within the console:
 ```
