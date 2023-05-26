@@ -19,10 +19,10 @@ gem "image_processing", "~> 1.2"
 3. I did end up needing to add these manually:
 Set the following key-value pairs (replace XXX with your actual credentials):
 
-AWS_ACCESS_KEY_ID: XXX
-AWS_SECRET_ACCESS_KEY: XXX
-AWS_REGION: XXX
-AWS_BUCKET: XXX
+AWS_ACCESS_KEY_ID: XXX<br>
+AWS_SECRET_ACCESS_KEY: XXX<br>
+AWS_REGION: XXX<br>
+AWS_BUCKET: XXX<br>
 
 4. Tell Active Storage which service to use by setting Rails.application.config.active_storage.service. Because each environment will likely use a different service, it is recommended to do this on a per-environment basis. To use the disk service from the previous example in the development environment, you would add the following to config/environments/development.rb:
 ```
