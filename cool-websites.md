@@ -66,4 +66,6 @@ https://studio.polotno.com/ - Polotno Studio is a free tool that helps you creat
 
 https://www.chefgpt.xyz/ - ChefGPT is a free tool that helps you generate recipes. It's a Chrome extension that uses AI to generate recipes. It's free and easy to use.
 
+https://vocalremover.org/ - Vocal Remover is a free tool that helps you remove vocals from songs. It's a Chrome extension that uses AI to remove vocals from songs. It's free and easy to use.
+
 
