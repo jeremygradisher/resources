@@ -4,6 +4,8 @@ https://sketch.metademolab.com/ - Bring Children's drawings to life with AI.
 
 https://chat.openai.com/ - OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.
 
+https://www.remove.bg/ - Remove Image Background: 100% automatically – in 5 seconds – without a single click – for free. For free, this keeps your pics pretty small. Like 600px limit.
+
 https://pictory.ai/ - Automatically create short, highly-sharable branded videos from your long form content.
 
 https://www.capitoltrades.com/ - shows what the politicians are investing in.
@@ -72,8 +74,6 @@ https://www.coursera.org/ - Choose from hundreds of free courses or pay to earn 
 https://www.udemy.com/ - Udemy is an online learning and teaching marketplace with over 155,000 courses and 40 million students. Learn programming, marketing, data science and more.
 
 https://www.skillshare.com/ - Skillshare is a learning platform with online classes taught by the world's best practitioners. Personalized, on-demand learning in design, photography, and more.
-
-https://www.remove.bg/ - Remove Image Background: 100% automatically – in 5 seconds – without a single click – for free.
 
 https://www.supermeme.ai/ - Supermeme is a free tool that helps you create memes. It's a Chrome extension that uses AI to create memes. It's free and easy to use.
 
