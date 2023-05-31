@@ -71,6 +71,11 @@ config.active_storage.service = :amazon
 ```
 gem "aws-sdk-s3", require: false
 ```
+
+10. Make sure the following line is uncommentd in your gemfile:
+```
+gem "image_processing", "~> 1.2"
+```
 * run ```bundle install```
 
 
