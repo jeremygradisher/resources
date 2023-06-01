@@ -10,6 +10,8 @@ https://www.capitoltrades.com/ - shows what the politicians are investing in.
 
 https://www.grammarly.com/ - Grammarly is a free tool that helps you write better. It's a Chrome extension that uses AI to write better. It's free and easy to use.
 
+https://www.loom.com/ - Loom is a new kind of work communication tool that helps you get your message across through instantly shareable video.
+
 ## Paid Tools
 
 https://www.remove.bg/ - Remove Image Background: 100% automatically – in 5 seconds – without a single click – for free. For free, this keeps your pics pretty small. Like 600px limit.
@@ -17,12 +19,6 @@ https://www.remove.bg/ - Remove Image Background: 100% automatically – in 5 se
 https://pictory.ai/ - Automatically create short, highly-sharable branded videos from your long form content. Our free trial plan allows you to create 3 video projects, each of up to 10 mins long!
 
 https://www.synthesia.io/ - AI video generation platform - create an AI version of yourself to read out your blog posts. $30 per month. Pretty pricey.
-
-
-
-https://www.loom.com/ - Loom is a new kind of work communication tool that helps you get your message across through instantly shareable video.
-
-
 
 https://answersocrates.com/ - Answersocrates is a powerful research, content and question tool that will help you discover exactly what people are searching for in the search engines.
 
