@@ -1,14 +1,18 @@
+## Free Tools
+
 https://www.photopea.com - Online image editor. Free. Just like Adobe Photoshop.
 
 https://sketch.metademolab.com/ - Bring Children's drawings to life with AI.
 
-https://chat.openai.com/ - OpenAI is an AI research and deployment company. Our mission is to ensure that artificial general intelligence benefits all of humanity.
+https://chat.openai.com/ - Chat GPT-3 is currently free. Chat GPT-4 is currently $20 per month.
+
+https://www.capitoltrades.com/ - shows what the politicians are investing in.
+
+## Paid Tools
 
 https://www.remove.bg/ - Remove Image Background: 100% automatically – in 5 seconds – without a single click – for free. For free, this keeps your pics pretty small. Like 600px limit.
 
 https://pictory.ai/ - Automatically create short, highly-sharable branded videos from your long form content. Our free trial plan allows you to create 3 video projects, each of up to 10 mins long!
-
-https://www.capitoltrades.com/ - shows what the politicians are investing in.
 
 https://www.synthesia.io/ - AI video generation platform - create an AI version of yourself to read out your blog posts. $30 per month. Pretty pricey.
 
