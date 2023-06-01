@@ -6,7 +6,7 @@ https://chat.openai.com/ - OpenAI is an AI research and deployment company. Our 
 
 https://www.remove.bg/ - Remove Image Background: 100% automatically – in 5 seconds – without a single click – for free. For free, this keeps your pics pretty small. Like 600px limit.
 
-https://pictory.ai/ - Automatically create short, highly-sharable branded videos from your long form content.
+https://pictory.ai/ - Automatically create short, highly-sharable branded videos from your long form content. Our free trial plan allows you to create 3 video projects, each of up to 10 mins long!
 
 https://www.capitoltrades.com/ - shows what the politicians are investing in.
 
