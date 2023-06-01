@@ -8,6 +8,8 @@ https://chat.openai.com/ - Chat GPT-3 is currently free. Chat GPT-4 is currently
 
 https://www.capitoltrades.com/ - shows what the politicians are investing in.
 
+https://www.grammarly.com/ - Grammarly is a free tool that helps you write better. It's a Chrome extension that uses AI to write better. It's free and easy to use.
+
 ## Paid Tools
 
 https://www.remove.bg/ - Remove Image Background: 100% automatically – in 5 seconds – without a single click – for free. For free, this keeps your pics pretty small. Like 600px limit.
@@ -16,11 +18,11 @@ https://pictory.ai/ - Automatically create short, highly-sharable branded videos
 
 https://www.synthesia.io/ - AI video generation platform - create an AI version of yourself to read out your blog posts. $30 per month. Pretty pricey.
 
-https://www.stan.store/ - Turn your followers into paying customers by selling digital products and services you know your audience will love. Join the #StanFam to grow your Creator Business today!
+
 
 https://www.loom.com/ - Loom is a new kind of work communication tool that helps you get your message across through instantly shareable video.
 
-https://gumroad.com/ - Sell your work, your way. Run your own creator business full-time or just on the side. Sell digital products, physical goods and subscriptions all from one place.
+
 
 https://answersocrates.com/ - Answersocrates is a powerful research, content and question tool that will help you discover exactly what people are searching for in the search engines.
 
@@ -101,7 +103,12 @@ https://axiom.ai/ - Browser Automation. Quickly, without code
 Save time - use browser bots to automate website actions and repetitive tasks on any website or web app. Get 2 hours of bot run time for free, sign up to one of our packages for more!
 Run time is counted from when your bot starts running to when it finishes - you can spend as long building as you like. Stopped runs or errors don't count, either! The maximum duration of a single run during the free trial is 30 mins. $15 gets you 5 hours. $50 gets you 30 hours.
 
-https://www.grammarly.com/ - Grammarly is a free tool that helps you write better. It's a Chrome extension that uses AI to write better. It's free and easy to use.
 
 
 
+
+## Sales Tools
+
+https://www.stan.store/ - Turn your followers into paying customers by selling digital products and services you know your audience will love. Join the #StanFam to grow your Creator Business today!
+
+https://gumroad.com/ - Sell your work, your way. Run your own creator business full-time or just on the side. Sell digital products, physical goods and subscriptions all from one place.
