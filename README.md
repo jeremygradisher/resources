@@ -224,6 +224,38 @@ https://github.com/jeremygradisher/test-devise-basic
 
 ---
 
+## HTTP Basic Authentication.
+
+1. Controller
+Add this to the controller that manages the page you want to protect.
+
+```
+class YourController < ApplicationController
+  http_basic_authenticate_with name: "foo", password: "bar", only: [:your_protected_action]
+  
+  def your_protected_action
+    # Your action code here
+  end
+end
+```
+Replace "foo" and "bar" with the username and password you want to use.
+
+2. Also, I see this on the Factory:
+```
+class ApplicationController < ActionController::Base
+
+  unless Rails.env.development? || Rails.env.test?
+    http_basic_authenticate_with name: ENV['HTTP_BASIC_AUTH_NAME'], password: ENV['HTTP_BASIC_AUTH_PASSWORD']
+  end
+
+end
+```
+
+We can add that to the envelope easy in the Heroku dashboard.
+
+
+---
+
 # Github Resources - Git Resources
 
 ## Git resources:
