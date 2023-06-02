@@ -250,8 +250,15 @@ class ApplicationController < ActionController::Base
 
 end
 ```
+You would need a .env file with the credentials in it for local, protected by .gitingore.<br>
+The contents of your .env file might look like this:
 
-We can add that to the envelope easy in the Heroku dashboard.
+```
+HTTP_BASIC_AUTH_NAME=myusername
+HTTP_BASIC_AUTH_PASSWORD=mypassword
+```
+
+For production we can add that to the envelope easy in the Heroku dashboard.
 
 
 ---
