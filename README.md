@@ -184,7 +184,6 @@ rails generate controller Contacts index
 
 2. Make sure the controller and the view both exist.
 
-
 3. Define the route: In the config/routes.rb file, add a route that maps the URL /contacts to the Contacts#index action. You can do this by adding the following line:
 ```
 get '/contacts', to: 'contacts#index'
@@ -224,7 +223,7 @@ https://github.com/jeremygradisher/test-devise-basic
 
 ---
 
-## HTTP Basic Authentication.
+## HTTP Basic Authentication
 
 1. Controller
 Add this to the controller that manages the page you want to protect.
