@@ -95,7 +95,7 @@ bin/rails javascript:install:esbuild
 
 3. Precompile your build assets:
 ```
-rails assets:precompile
+bin/rails assets:precompile
 ```
 
 ### To add Bootstrap from scratch use --css=bootstrap
