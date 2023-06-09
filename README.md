@@ -67,7 +67,7 @@ bin/dev
 
 ### If you cloned this, Precompile javascript/css:
 ```
-rails assets:precompile
+bin/rails assets:precompile
 ```
 
 ## Run Rails Tests
