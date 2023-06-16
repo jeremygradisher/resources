@@ -259,6 +259,177 @@ HTTP_BASIC_AUTH_PASSWORD=mypassword
 
 For production we can add that to the envelope easy in the Heroku dashboard.
 
+---
+
+## Postmark setup:
+### Send an email with the Postmark Rails Gem
+### Learn more -> https://postmarkapp.com/developer/integration/official-libraries#rails-gem
+
+
+1. Add postmark-rails to your Gemfile and run bundle install.
+```
+gem 'postmark-rails'
+```
+
+2. Login to https://postmarkapp.com and create a new server. Then get the postmark_api_token.
+
+3. run ```bin/rails secret```, then run ```EDITOR="code --wait" bin/rails credentials:edit``` and add:
+```
+postmark_api_token: "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+```
+Hit save (Cmd + S) and x out of the file. Be sure you see: File encrypted and saved.
+
+4. Add the api to heroku manually (Doing this also - Not sure if I actually need this)
+```
+postmark_api_token:
+```
+
+5. Add this to your config/application.rb file:
+```
+config.action_mailer.delivery_method = :postmark
+config.action_mailer.postmark_settings = { :api_token => Rails.application.credentials.postmark_api_token }
+```
+
+6. add this to config/environments/production.rb:
+```
+Rails.application.routes.default_url_options[:host] = 'affyex-devise-users.herokuapp.com'
+```
+
+7. Doing this, usure if necessarry currently:
+The Heroku environment needs to have the same Postmark API token as your local environment. In Heroku, under your application settings, there is a section called "Config Vars". Add a new Config Var with the key as RAILS_MASTER_KEY and the value as the master key from your local config/master.key file.
+
+8. I had to change this line in config/initializers/devise.rb:
+```
+config.mailer_sender = 'gradisher@affygility.com'
+```
+
+---
+
+## Sidekiq setup:
+1. add gem to Gemfile:
+```ruby
+gem 'sidekiq'
+```
+* run ```bundle install```
+
+2. within app/config/application.rb, add:
+```ruby
+config.active_job.queue_adapter = :sidekiq
+```
+
+3. add this to config/routes.rb:
+```ruby
+  require 'sidekiq/web'
+
+  Sidekiq::Web.use(Rack::Auth::Basic) do |user, password|
+    [user, password] == [ENV['HTTP_BASIC_AUTH_NAME'], ENV['HTTP_BASIC_AUTH_PASSWORD']]
+  end
+
+  mount Sidekiq::Web => '/sidekiq'
+```   
+
+4. Create ```Procfile``` in root directory and add:
+``` 
+worker: bundle exec sidekiq
+```
+
+5. On heroku, add the dyno (worker) to the app.
+```
+heroku ps:scale worker=1
+```
+https://github.com/sidekiq/sidekiq/wiki/Getting-Started
+
+
+---
+
+## Create a Mailer:
+
+1. Create a mailer:
+```
+bin/rails generate mailer UserMailer
+```
+
+2. Add this to app/mailers/user_mailer.rb:
+```ruby
+class UserMailer < ApplicationMailer
+  default from: 'no-reply@affygility.com'
+
+  def welcome_email
+    @user = params[:user]
+    @url  = 'http://affyex-devise-users.herokuapp.com/users/sign_in'
+    mail(to: @user.email, subject: 'Welcome to AffyEx')
+  end
+end
+```
+
+3. Create a file called welcome_email.html.erb in app/views/user_mailer/. This will be the template used for the email, formatted in HTML:
+```ruby
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Welcome to the AffyEx!, <%= @user.email %></h1>
+    <p>
+    You have successfully signed up to AffyEx,
+    your username is: <%= @user.email %>.<br>
+    To login to the site, just follow this link: <%= @url %>.
+    </p>
+    <p>Thanks for joining and have a great day!</p>
+  </body>
+</html>
+```
+
+4. Add this to app/views/user_mailer/welcome_email.text.erb:
+```
+Welcome to AffyEx, <%= @user.email %>
+===============================================
+You have successfully signed up to AffyEx,
+your username is: <%= @user.email %>.
+
+To login to the site, just follow this link: <%= @url %>.
+
+Thanks for joining and have a great day!
+```
+
+5. To send a welcome email after a user signs up, you'll want to override Devise's RegistrationsController. Here's how you can do that:
+
+* Create a new file in your controllers directory. The path should be app/controllers/users/confirmations_controller.rb.
+
+In this file, add the following code:
+
+```ruby
+class Users::ConfirmationsController < Devise::ConfirmationsController
+  def show
+    super do |resource|
+      if resource.errors.empty?
+        UserMailer.with(user: resource).welcome_email.deliver_later
+      end
+    end
+  end
+end
+```
+The super keyword calls the original show method from Devise::ConfirmationsController, and the block (do |resource| ... end) is executed after the user is confirmed. The resource.errors.empty? check ensures that the user was successfully confirmed before sending the email.
+
+* Now you need to tell Devise to use your new controller. In your routes.rb file, modify the Devise routes to look like this:
+
+```ruby
+devise_for :users, controllers: { confirmations: 'users/confirmations' }
+```
+This will ensure that the welcome email is only sent after a user has successfully confirmed their account.
+
+* Finally, make sure you have a UserMailer with a welcome_email method and a corresponding view. The mailer might look something like this:
+
+```ruby
+class UserMailer < ApplicationMailer
+  def welcome_email
+    @user = params[:user]
+    mail(to: @user.email, subject: 'Welcome to Our Website!')
+  end
+end
+```
+
 
 ---
 
