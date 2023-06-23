@@ -9,13 +9,13 @@ How would you describe this?
 ### Chat-GPT-4's response descripbing Rails 7:
 The command you've shared is used to generate a new Ruby on Rails (RoR) application with specific options.
 
-1. rails new app-name: This is the basic command to create a new Rails application. app-name is the name of your new application.
+1. ```rails new app-name```: This is the basic command to create a new Rails application. app-name is the name of your new application.
 
-2. --css=bootstrap: This option tells Rails to use Bootstrap as the CSS framework for the application. Bootstrap is a popular CSS framework used for designing responsive and mobile-first websites.
+2. ```--css=bootstrap```: This option tells Rails to use Bootstrap as the CSS framework for the application. Bootstrap is a popular CSS framework used for designing responsive and mobile-first websites.
 
-3. --javascript=esbuild: This option instructs Rails to use esbuild for handling JavaScript in the application. esbuild is a fast JavaScript bundler and minifier.
+3. ```--javascript=esbuild```: This option instructs Rails to use esbuild for handling JavaScript in the application. esbuild is a fast JavaScript bundler and minifier.
 
-4. --database=postgresql: This option sets PostgreSQL as the database for the application. PostgreSQL is a powerful, open-source object-relational database system.
+4. ```--database=postgresql```: This option sets PostgreSQL as the database for the application. PostgreSQL is a powerful, open-source object-relational database system.
 
 So, to put it all together, this command will create a new Ruby on Rails 7 application with the specified name, using Bootstrap for the CSS framework, esbuild for JavaScript bundling and minification, and PostgreSQL as the database.
 
