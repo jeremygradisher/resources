@@ -3,7 +3,7 @@
 ### Asking Chat-GPT-4 about this:
 When i create a Ruby on Rails 7 application, I do it like this:
 ```
-rails new app-name --css=bootstrap --javascript=esbuild --database=postgresql
+bin/rails new app-name --css=bootstrap --javascript=esbuild --database=postgresql
 ```
 
 How would you describe this?
