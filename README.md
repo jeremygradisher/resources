@@ -104,6 +104,25 @@ rails new app-name --css=bootstrap --javascript=esbuild --database=postgresql
 ```
 -c, [--css=CSS] # Choose CSS processor [options: tailwind, bootstrap, bulma, postcss, sass... check https://github.com/rails/cssbundling-rails]
 
+---
+
+## Rails generate scaffold Article:
+
+1. In your case, the ModelName would be Article and the fields would be title of type string and article of type text. Therefore, your command would look like this:
+```
+bin/rails generate scaffold Article title:string article:text
+```
+
+2. apply the migration:
+```
+bin/rails db:migrate
+```
+
+3. Add to the Routes:
+```
+resources :articles
+```
+
 
 ---
 
