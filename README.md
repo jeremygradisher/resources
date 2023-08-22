@@ -454,7 +454,7 @@ end
 ## Permissions using Pundit:
 
 Static Page Policy:
-```
+```ruby
   class PagePolicy
     attr_reader :user, :page
   
@@ -492,7 +492,7 @@ Static Page Policy:
 
 
 ## Then in the Gropu controller:
-```
+```ruby
 class GroupsController < ApplicationController
   before_action :authorize_group, only: [:new, :create]
 
@@ -508,7 +508,7 @@ end
 ```
 
 ## In your views, to conditionally display links or other elements based on this policy:
-```
+```ruby
 <% if policy(:group).new? %>
   <%= link_to 'Create Group', new_group_path %>
 <% end %>
@@ -516,7 +516,7 @@ end
 ```
 
 ## More complex example:
-```
+```ruby
 <li class="sidebar-item">
     <% if policy(:account).index? || policy(:group).index? || policy(:user).index? %>
         <a data-bs-target="#agu" data-bs-toggle="collapse" class="sidebar-link collapsed">
