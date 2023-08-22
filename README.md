@@ -451,8 +451,6 @@ end
 
 ---
 
----
-
 ## Permissions using Pundit:
 
 Static Page Policy:
