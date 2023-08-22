@@ -449,8 +449,101 @@ class UserMailer < ApplicationMailer
 end
 ```
 
+---
 
 ---
+
+## Permissions using Pundit:
+
+Static Page Policy:
+```
+  class PagePolicy
+    attr_reader :user, :page
+  
+    def initialize(user, page)
+      @user = user
+      @page = page
+    end
+  
+    def show?
+      user.present?
+    end
+
+    def special_page?
+      ['Affygility', 'Admin'].include?(user&.role)
+    end
+  
+    def affygility?
+      user&.role == 'Affygility'
+    end
+
+    def admin?
+      user&.role == 'Admin'
+    end
+
+    def downloader?
+      user&.role == 'Downloader'
+    end
+
+    def viewer?
+      user&.role == 'Viewer'
+    end
+  end
+  
+```
+
+
+## Then in the Gropu controller:
+```
+class GroupsController < ApplicationController
+  before_action :authorize_group, only: [:new, :create]
+
+  # ... other controller methods ...
+
+  private
+
+  def authorize_group
+    authorize :group
+  end
+end
+
+```
+
+## In your views, to conditionally display links or other elements based on this policy:
+```
+<% if policy(:group).new? %>
+  <%= link_to 'Create Group', new_group_path %>
+<% end %>
+
+```
+
+## More complex example:
+```
+<li class="sidebar-item">
+    <% if policy(:account).index? || policy(:group).index? || policy(:user).index? %>
+        <a data-bs-target="#agu" data-bs-toggle="collapse" class="sidebar-link collapsed">
+            <i class="align-middle" data-feather="users"></i> <span class="align-middle">Account/Group/Users</span>
+        </a>
+        <ul id="agu" class="sidebar-dropdown list-unstyled collapse " data-bs-parent="#sidebar">
+            <% if policy(:account).index? %>
+                <li class="sidebar-item"><a class="sidebar-link" href="/accounts">Accounts</a></li>
+            <% end %>
+            
+            <% if policy(:group).index? %>
+                <li class="sidebar-item"><a class="sidebar-link" href="/groups">Groups</a></li>
+            <% end %>
+
+            <% if policy(:user).index? %>
+                <li class="sidebar-item"><a class="sidebar-link" href="/users">Users</a></li>
+            <% end %>
+        </ul>
+    <% end %>
+</li>
+```
+
+
+
+
 
 # Github Resources - Git Resources
 
