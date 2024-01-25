@@ -858,6 +858,47 @@ Cmd + Shift + G
 ```
 
 ---
+
+## Pushing to different remotes:
+
+Show different remotes:
+```
+git remote -v
+```
+* that will get ypu something like this:
+```
+demo    https://git.heroku.com/the-showroom-demo.git (fetch)
+demo    https://git.heroku.com/the-showroom-demo.git (push)
+dev     https://git.heroku.com/the-showroom-dev.git (fetch)
+dev     https://git.heroku.com/the-showroom-dev.git (push)
+fake    https://git.heroku.com/the-showroom-fake.git (fetch)
+fake    https://git.heroku.com/the-showroom-fake.git (push)
+origin  https://github.com/Affygility/the-showroom.git (fetch)
+origin  https://github.com/Affygility/the-showroom.git (push)
+production      https://git.heroku.com/the-showroom.git (fetch)
+production      https://git.heroku.com/the-showroom.git (push)
+```
+
+### Push to production
+```
+git push production main
+```
+* This will push the main branch to the production remote
+
+### Push to demo remote
+```
+git push demo main
+```
+* This will push the main branch to the demo remote
+
+### Push to dev remote from dev branch
+```
+git push dev dev:main
+```
+* This will push the dev branch to the dev remote<br>
+* the first "dev" is the remote, the second "dev" is the branch you are pushing from and the :main is the branch you are pushing to on the remote.
+---
+
 # Share the knowledge. Let's build!!!
 
 
