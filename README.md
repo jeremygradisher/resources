@@ -899,10 +899,11 @@ git push dev dev:main
 * the first "dev" is the remote, the second "dev" is the branch you are pushing from and the :main is the branch you are pushing to on the remote.
 ---
 
+## For reference: 
+
+```
+git push <remote> <local branch>:<remote branch>
+```
+
 # Share the knowledge. Let's build!!!
-
-
-
-
-
 
