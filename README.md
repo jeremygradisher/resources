@@ -676,8 +676,9 @@ $ heroku rename nameofyourchoice
 Ensure your latest changes are committed using git status, if not, make a commit
 
 Deploy your app to production:
-$ git push heroku master -a appname
-$ heroku run rake db:migrate -a appname
+$ git push heroku main -a appname
+$ git push <remote> <local branch>:<remote branch>
+$ heroku run rails db:migrate -a appname
 
 Watch Heroku logs in real time:
 $ heroku logs --tail -a statusplan2
