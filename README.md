@@ -491,7 +491,7 @@ Static Page Policy:
 ```
 
 
-## Then in the Gropu controller:
+## Then in the Group controller:
 ```ruby
 class GroupsController < ApplicationController
   before_action :authorize_group, only: [:new, :create]
@@ -539,6 +539,14 @@ end
 </li>
 ```
 
+## Pundit - Conditional Rendering:
+
+```ruby
+<% if policy(Note.new).show? %>
+  <th>Notes</th>
+<% end %>
+```
+*conditionally rendered based on whether the user has the permission to show notes. This is determined by policy(Note.new).show?.
 
 
 
