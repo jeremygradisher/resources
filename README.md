@@ -916,6 +916,3 @@ git push <remote> <local branch>:<remote branch>
 
 # Share the knowledge. Let's build!!!
 
-
-
-
