@@ -914,5 +914,67 @@ git push dev dev:main
 git push <remote> <local branch>:<remote branch>
 ```
 
+---
+
+## wordpress-plugin-update.txt
+
+
+https://developer.wordpress.org/plugins/wordpress-org/ towards the bottom give you a lot of links...
+
+https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/
+
+
+1. First create a local directory on your machine to house a copy of the SVN repository:
+    $ mkdir my-local-dir-jan
+
+2. Next, check out the pre-built repository
+    $ svn co https://plugins.svn.wordpress.org/remove-wp-branding my-local-dir-jan
+
+* if this doesn't work you may need:
+$ brew install svn
+
+A    my-local-dir/assets
+A    my-local-dir/assets/banner-772x250.png
+A    my-local-dir/assets/banner-772x250.psd
+A    my-local-dir/assets/icon-128x128.png
+A    my-local-dir/assets/icon-256x256.png
+A    my-local-dir/assets/icon.png
+A    my-local-dir/assets/screenshot-1.jpg
+A    my-local-dir/assets/screenshot-2.jpg
+A    my-local-dir/assets/screenshot-3.jpg
+A    my-local-dir/branches
+A    my-local-dir/tags
+A    my-local-dir/trunk
+A    my-local-dir/trunk/readme.txt
+A    my-local-dir/trunk/remove-wp-branding.php
+A    my-local-dir/trunk/uninstall.php
+Checked out revision 2045463.
+
+
+3. move into the correct directory
+$ cd my-local-dir
+
+4. Add/change the files you need. Then check to see if what you have is different:
+my-local-dir/$ svn stat
+
+5. you can check the diff as well if you would like:
+Let’s see what exactly has changed in that file, so we can check it over and make sure things look right.
+my-local-dir/$ svn diff
+
+6. If it all looks good then it’s time to check in those changes to the central repository.
+my-local-dir/$ svn ci -m "Changed tested up to 6.2.2"
+
+*it asked for a user account and password here. There is something else in the notes in case you get an error.
+
+If the commit fails because of ‘Access forbidden’ and you know you have commit access, add your username and password to the check-in command.
+
+my-local-dir/$ svn ci -m 'Adding first version of my plugin' --username your_username --password your_password
+
+
+svn ci -m 'Updating to 6.6.1' --username your_username --password your_password --no-auth-cache
+
+
+---
+
 # Share the knowledge. Let's build!!!
 
