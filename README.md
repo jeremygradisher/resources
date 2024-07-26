@@ -971,7 +971,11 @@ If the commit fails because of ‘Access forbidden’ and you know you have comm
 my-local-dir/$ svn ci -m 'Adding first version of my plugin' --username your_username --password your_password
 
 
-svn ci -m 'Updating to 6.6.1' --username your_username --password your_password --no-auth-cache
+$ svn ci -m 'Updating to 6.6.1' --username your_username --password your_password --no-auth-cache
+
+7. Tag the New Version: The svn copy command is used to create a snapshot of the current state of the trunk directory and save it as a tag.<br>
+$ svn copy https://plugins.svn.wordpress.org/remove-wp-branding/trunk https://plugins.svn.wordpress.org/remove-wp-branding/tags/1.1.6 -m "Tagging version 1.1.6"
+
 
 
 ---
