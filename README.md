@@ -983,8 +983,3 @@ $ svn copy https://plugins.svn.wordpress.org/remove-wp-branding/trunk https://pl
 
 
 
-
-
-
-
-
