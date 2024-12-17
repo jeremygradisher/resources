@@ -978,4 +978,13 @@ $ svn copy https://plugins.svn.wordpress.org/remove-wp-branding/trunk https://pl
 
 ---
 
+# Create a file
+
+```bash
+touch test/helpers/factory_helper_test.rb
+```
+
+
+---
+
 # Share the knowledge. Let's build!!!
