@@ -987,4 +987,17 @@ touch test/helpers/factory_helper_test.rb
 
 ---
 
+## Testing Postmark
+
+```
+Postmark::ApiClient.new(ENV["POSTMARK_API_TOKEN"]).deliver(
+  from: "support@oelfastracplus.com",
+  to: "gradisher@affygility.com",
+  subject: "Test email from Postmark",
+  text_body: "This is a test. Making sure this is coming through!!!"
+)
+```
+
+---
+
 # Share the knowledge. Let's build!!!
