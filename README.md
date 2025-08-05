@@ -1019,4 +1019,18 @@ git remote add production https://git.heroku.com/oel-factory-doc-converter.git
 ```
 ---
 
+## Quick test email from app - locally or in Production
+
+Run the following through rails console:
+```
+Postmark::ApiClient.new(ENV["POSTMARK_API_TOKEN"]).deliver(
+  from: "support@oelfastracplus.com",
+  to: "gradisher@affygility.com",
+  subject: "Test email from Postmark in Production",
+  text_body: "This is a test. Making sure this is coming through in production!!!"
+)
+```
+
+---
+
 # Share the knowledge. Let's build!!!
