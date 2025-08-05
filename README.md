@@ -1000,4 +1000,23 @@ Postmark::ApiClient.new(ENV["POSTMARK_API_TOKEN"]).deliver(
 
 ---
 
+## Adding the Heroku remote
+
+If the Heroku app is called oel-factory-doc-converter, add it like this:
+```
+heroku git:remote -a oel-factory-doc-converter
+```
+
+This will add a remote called heroku:
+```
+heroku  https://git.heroku.com/oel-factory-doc-converter.git (fetch)
+heroku  https://git.heroku.com/oel-factory-doc-converter.git (push)
+```
+
+If you want to be more explicit or add a second name (e.g. production), you can also do:
+```
+git remote add production https://git.heroku.com/oel-factory-doc-converter.git
+```
+---
+
 # Share the knowledge. Let's build!!!
