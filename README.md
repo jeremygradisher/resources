@@ -1033,11 +1033,5 @@ Postmark::ApiClient.new(ENV["POSTMARK_API_TOKEN"]).deliver(
 
 ---
 
-
-
-Adjusting the notes. This is just to get everything right.
-
-
-
 # Share the knowledge. Let's build!!!
 
